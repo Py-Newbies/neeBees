@@ -1,1 +1,3 @@
-print("hello from Py.. !")
+print('hello from py tutos')
+
+
