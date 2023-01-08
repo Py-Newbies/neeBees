@@ -9,7 +9,6 @@ logging.basicConfig(filename="../logs/doorsteps.log", filemode='w',
 
 
 url = "https://www.doorsteps.com/search/77447"
-data = requests.get(url, headers=utils.my_headers())
 
 try:
     logging.info('trying to read localfile')
@@ -34,3 +33,6 @@ for prop in soup.select(".srp-list__item"):
     logging.info(" ".join(prop.select(".listing-item__text")[2].text.replace('\n', '').split()))
     logging.info(prop.select(".listing-item__text")[3].text)
     logging.info('#'*95)
+
+# logging.getLogger().handlers[0].close()
+logging.shutdown()
