@@ -1,40 +1,59 @@
-# neeBees
+## Welcome to NewBees ..!
 
-This is for learning 
+<img src="https://i.pinimg.com/474x/92/a6/2f/92a62f0221f58fe503a15fcb13f5c107--tom-jerry-movies-.jpg" height="250" width="200">
 
-![alt text](https://i.pinimg.com/474x/92/a6/2f/92a62f0221f58fe503a15fcb13f5c107--tom-jerry-movies-.jpg)
+This is repo is targeted to teach python-webscraping for beginners
 
+[//]: # (## Installation)
 
-## Installation
+[//]: # ()
+[//]: # (Use the package manager [pip]&#40;https://pip.pypa.io/en/stable/&#41; to install foobar.)
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+[//]: # ()
+[//]: # (```bash)
 
-```bash
-pip install foobar
-```
+[//]: # (pip install foobar)
 
-## Usage
+[//]: # (```)
 
-```python
-import foobar
+[//]: # ()
+[//]: # (## Usage)
 
-# returns 'words'
-foobar.pluralize('word')
+[//]: # ()
+[//]: # (```python)
 
-# returns 'geese'
-foobar.pluralize('goose')
+[//]: # (import foobar)
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+[//]: # ()
+[//]: # (# returns 'words')
 
-## Contributing
+[//]: # (foobar.pluralize&#40;'word'&#41;)
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+[//]: # ()
+[//]: # (# returns 'geese')
 
-Please make sure to update tests as appropriate.
+[//]: # (foobar.pluralize&#40;'goose'&#41;)
 
-## License
+[//]: # ()
+[//]: # (# returns 'phenomenon')
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[//]: # (foobar.singularize&#40;'phenomena'&#41;)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (## Contributing)
+
+[//]: # ()
+[//]: # (Pull requests are welcome. For major changes, please open an issue first)
+
+[//]: # (to discuss what you would like to change.)
+
+[//]: # ()
+[//]: # (Please make sure to update tests as appropriate.)
+
+[//]: # ()
+[//]: # (## License)
+
+[//]: # ()
+[//]: # ([MIT]&#40;https://choosealicense.com/licenses/mit/&#41;)
