@@ -2,7 +2,7 @@
 
 <img src="https://i.pinimg.com/474x/92/a6/2f/92a62f0221f58fe503a15fcb13f5c107--tom-jerry-movies-.jpg" height="250" width="200">
 
-This is repo is targeted to teach python-webscraping for beginners
+This repo is targeted to teach python-webscraping for beginners
 
 [//]: # (## Installation)
 
