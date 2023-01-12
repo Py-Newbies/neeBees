@@ -1,6 +1,7 @@
 import logging
 import requests
 from bs4 import BeautifulSoup
+import mysql.connector
 
 
 def my_headers():
@@ -30,3 +31,20 @@ def get_soup(url):
         logging.info('file content written successfully \n')
 
     return BeautifulSoup(html, "html.parser")
+
+
+def insert_to_db(vals):
+    mydb = mysql.connector.connect(host="sql.freedb.tech",
+                                   user="freedb_reddy_root",
+                                   password="Y6xY3PUMW?5R36h",
+                                   database="freedb_reddy_python")
+    mycursor = mydb.cursor()
+    sql = "insert into realestate(address,price,beds,baths,sqft,prop_type, written_by, inserted_dt) " \
+          "values(%s ,%s, %s, %s, %s, %s, %s, %s)"
+    mycursor.execute(sql, vals)
+    mydb.commit()
+    mydb.close()
+
+
+def extract_number(value):
+    return int("".join([i for i in value if i.isdigit()]))
